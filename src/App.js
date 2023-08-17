@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './Header';
-import Nav from './Nav';
-import Article from './Article';
-import Footer from './Footer';
+import Header from './components/Header';
+import Nav from './components/Nav';
+import Article from './components/Article';
+import Footer from './components/Footer';
 import './style.css';
 
 function App() {
@@ -14,13 +14,13 @@ function App() {
         <Article
           date="08/08/23"
           title="On the Street in Brooklyn"
-          imageSrc="blog-image-one.jpg"
+          imageSrc="Brooklyn.png"
           content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus..."
         />
         <Article
           date="08/07/23"
           title="Vintage in Vogue"
-          imageSrc="blog-image-two.jpg"
+          imageSrc="Vogue.png"
           content="Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur..."
         />
       </main>

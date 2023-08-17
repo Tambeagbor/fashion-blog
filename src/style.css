@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  min-height: 100vh;
+  font-family: sans-serif;
+  margin: 0;
+  border-left: 5px solid lightgray;
+}
+
+body, h1, h2, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header, main, footer {
+  padding: 1rem 2rem;
+}
+
+h1 {
+  color: tomato;
+}
+
+img {
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+/* Add this CSS code to underline Main Navigation elements */
+nav a {
+  color: lightgray;
+  text-decoration: underline; /* Add this line to underline the navigation links */
+}
+
+/* Add this CSS code to create a gap between h2 and nav Main Navigation */
+.page-subtitle {
+  margin-bottom: 20px; /* Adjust the margin value as needed */
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer nav a {
+  color: tomato;
+}
+
+article {
+  color: black; /* Change text color for better contrast */
+  background-color: white; /* Add a white background for better readability */
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 4rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid lightgray;
+}
+
+p::first-letter {
+  color: lightgray;
+}
+
+article a {
+  text-align: right;
+  font-weight: bold;
+  color: tomato;
+}
+
+/* Add this CSS code to make first letters in <p> tags even bigger */
+p::first-letter {
+  font-size: 2.5em; /* Adjust the font size as needed */
+}
+
+
+/* Add this CSS code to make article headers black */
+article h2 {
+  color: black;
+}
+
+/* Add this CSS code to make Dates grey */
+date {
+  color: grey;
+}
